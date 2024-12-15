@@ -32,6 +32,7 @@ jax                       0.4.23
 jaxlib                    0.4.23                   
 numpy                     1.26.4                   
 
+<i>Before starting, replace WPS' ungrib/src/rd_grib2.F with the file provided here and compile WPS.  No changes needed for WRF except using the included METGRID.TBL in place of the default table, and the provided Vtables.</i>
 
 --------------------------------------------------------------------------------------------------------
 (1) Install software into new conda environment and acquire GC assets [done once]
